@@ -8,6 +8,8 @@
 import UIKit
 
 class TrackListViewController: UITableViewController {
+    
+    var track = Track.getTrackList()
 
     override func viewDidLoad() {
         super.viewDidLoad()

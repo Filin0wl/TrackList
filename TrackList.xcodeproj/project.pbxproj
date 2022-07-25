@@ -13,6 +13,7 @@
 		12468269288E9EC8004EB042 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12468267288E9EC8004EB042 /* LaunchScreen.storyboard */; };
 		12468271288EAD96004EB042 /* TrackListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12468270288EAD96004EB042 /* TrackListViewController.swift */; };
 		12468279288EB5A2004EB042 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12468277288EB5A2004EB042 /* Main.storyboard */; };
+		12A3EDB7288EC65F0091A5BB /* Track.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A3EDB6288EC65F0091A5BB /* Track.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		1246826A288E9EC8004EB042 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		12468270288EAD96004EB042 /* TrackListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackListViewController.swift; sourceTree = "<group>"; };
 		12468278288EB5A2004EB042 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		12A3EDB6288EC65F0091A5BB /* Track.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Track.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		1246825B288E9EC3004EB042 /* TrackList */ = {
 			isa = PBXGroup;
 			children = (
+				12A3EDB5288EC6480091A5BB /* Models */,
 				12A3EDB0288EC57D0091A5BB /* Storyboards */,
 				12A3EDB3288EC5C50091A5BB /* ViewControllers */,
 				12A3EDB2288EC5A40091A5BB /* Supporting Files */,
@@ -97,6 +100,14 @@
 				12468270288EAD96004EB042 /* TrackListViewController.swift */,
 			);
 			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		12A3EDB5288EC6480091A5BB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				12A3EDB6288EC65F0091A5BB /* Track.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -173,6 +184,7 @@
 				1246825D288E9EC3004EB042 /* AppDelegate.swift in Sources */,
 				1246825F288E9EC3004EB042 /* SceneDelegate.swift in Sources */,
 				12468271288EAD96004EB042 /* TrackListViewController.swift in Sources */,
+				12A3EDB7288EC65F0091A5BB /* Track.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
